@@ -1,8 +1,4 @@
-/**
- * Function to greet a person by name
- * @param {string} name - The name of the person to greet
- * @returns {string} A greeting message
- */
+// Function to greet a person by name
 function sayHi(name) {
   return `Hello there ${name}`
 }

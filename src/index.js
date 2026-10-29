@@ -1,5 +1,6 @@
+// just a greeting
 function sayHi(name) {
-  return `Hello there ${name}`
+  return `Hello ${name} ,it's ${new Date().toISOString()}`;
 }
 
-module.exports = sayHi
+module.exports = sayHi;

@@ -1,5 +1,8 @@
+//Commenting
+//Collaborating
+//Rule applied to all
 function sayHi(name) {
-  return `Hello there ${name}`
+  return `Hello ${name}`
 }
 
 module.exports = sayHi

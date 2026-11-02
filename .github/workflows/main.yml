@@ -1,7 +1,5 @@
 name: CI
-
-on: push
-
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,3 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Test the code
         run: echo "Replace this with the test code"
+      - name: install dependencied
+        run: npm install
+      - name: Run tests
+        run: npm test      
